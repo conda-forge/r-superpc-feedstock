@@ -14,9 +14,9 @@ source:
   sha256: 3f991a5ac577c8fd72255d993b4f82729767b3cb8e70f148b1a7dc63c5a37ddc
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,8 +42,7 @@ about:
   summary: Supervised principal components for regression and survival analsysis. Especially
     useful for high-dimnesional data, including microarray data.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
