@@ -5,11 +5,9 @@ Home: http://www-stat.stanford.edu/~tibs/superpc
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-superpc-feedstock/blob/master/LICENSE.txt)
 
 Summary: Supervised principal components for regression and survival analsysis. Especially useful for high-dimnesional data, including microarray data.
-
-
 
 Current build status
 ====================
